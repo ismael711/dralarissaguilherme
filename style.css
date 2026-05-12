@@ -235,7 +235,7 @@ button {
 }
 
 .nav__logo-img {
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 
@@ -350,8 +350,11 @@ button {
 
 .hero__img {
     width: 100%;
+    max-width: 400px;
     height: auto;
     object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 .hero__image-decoration {
@@ -493,8 +496,11 @@ button {
 
 .sobre__img {
     width: 100%;
+    max-width: 400px;
     height: auto;
     object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 .sobre__image-decoration {
