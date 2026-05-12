@@ -14,8 +14,8 @@
     --color-whatsapp: #25D366;
     
     /* Typography */
-    --font-heading: 'Cormorant Garamond', serif;
-    --font-body: 'Montserrat', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
     
     /* Font Sizes */
     --fs-h1: 3.5rem;
@@ -71,9 +71,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
     color: var(--color-black);
+    letter-spacing: -0.5px;
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    font-weight: 600;
+    letter-spacing: 0;
 }
 
 a {
