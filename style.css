@@ -362,16 +362,17 @@ button {
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    max-width: 400px;
+    width: 100%;
+    aspect-ratio: 4 / 5;
 }
 
 .hero__img {
     width: 100%;
-    max-width: 400px;
-    aspect-ratio: 4 / 5;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
-    border-radius: var(--radius-lg);
 }
 
 .hero__image-decoration {
@@ -509,16 +510,17 @@ button {
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    max-width: 400px;
+    width: 100%;
+    aspect-ratio: 4 / 5;
 }
 
 .sobre__img {
     width: 100%;
-    max-width: 400px;
-    aspect-ratio: 4 / 5;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
-    border-radius: var(--radius-lg);
 }
 
 .sobre__image-decoration {
