@@ -355,6 +355,8 @@ button {
 
 .hero__image {
     animation: fadeInRight 1s ease;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero__image-wrapper {
@@ -503,6 +505,11 @@ button {
 .sobre__feature-text {
     color: var(--color-gray);
     font-size: var(--fs-small);
+}
+
+.sobre__image {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sobre__image-wrapper {
