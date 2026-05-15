@@ -367,10 +367,11 @@ button {
 .hero__img {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
-    margin: 0 auto;
+    object-position: center;
     display: block;
+    border-radius: var(--radius-lg);
 }
 
 .hero__image-decoration {
@@ -513,10 +514,11 @@ button {
 .sobre__img {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
-    margin: 0 auto;
+    object-position: center;
     display: block;
+    border-radius: var(--radius-lg);
 }
 
 .sobre__image-decoration {
